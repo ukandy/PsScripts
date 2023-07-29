@@ -1,0 +1,17 @@
+﻿<Window
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   Width="525"
+   SizeToContent="Height"
+   Title="Hover Example" Topmost="True" Height="228">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="Exit" Width="80" Height="25" Grid.Row="1"  HorizontalAlignment="Right" Margin="5" VerticalAlignment="Bottom" Content="Exit"/>
+        <Button x:Name="Saveroff" Content="Disable Saver" HorizontalAlignment="Left" Margin="24,26,0,0" VerticalAlignment="Top" Width="219" Height="30"/>
+        <Button x:Name="saveron" Content="Re Enable Saver" HorizontalAlignment="Left" Margin="277,26,0,0" VerticalAlignment="Top" Width="219" Height="30"/>
+        <Label Content="Saver is Enabled" HorizontalAlignment="Left" Height="52" Margin="24,89,0,0" VerticalAlignment="Top" Width="472" FontSize="24"/>
+    </Grid>
+</Window>
