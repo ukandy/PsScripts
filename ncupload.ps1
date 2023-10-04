@@ -2,10 +2,10 @@
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
 # Define your Nextcloud address
-$NextcloudUrl = "https://nc.sazam.co.uk"
+$NextcloudUrl = "https://xxxxx"
 
 # Define the shared token got from the shared link
-$sharetoken = "Xj5FQrH3Hj69GJ8"
+$sharetoken = "xxxxx"
 
 # Define folder path where are the files you would like to upload. It can upload only files not folders.
 # It doens't know about override, will create a duplicate in case you run it twice and the same file name is there.
